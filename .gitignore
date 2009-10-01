@@ -1,0 +1,15 @@
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.swn
+*.swm
+*.[oa]
+*~
+*.log
+*.db
+.project
+.settings
+.pydevproject
+tmp/**/*
+*DS_Store*
