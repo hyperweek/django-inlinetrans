@@ -8,5 +8,4 @@ setup(
     author_email='dnordberg@gmail.com',
     url='http://github.com/dnordberg/django-inlinetrans/tree/master',
     packages=find_packages(),
-    include_package_data = True,
 )
