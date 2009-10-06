@@ -11,10 +11,12 @@ Options for this settings::
   * "restart_script <script_path_name>"
 
 """
+from django.conf import settings
+import os
+
 DEFAULT_AUTO_RELOAD_METHOD = 'test'
 DEFAULT_AUTO_RELOAD_TIME = '5'
-DEFAULT_AUTO_RELOAD_LOG = 'var/log/autoreload_last.log'
-
+DEFAULT_AUTO_RELOAD_LOG = os.path.join(settings.ROOT_DIR, 'logs/autoreload_last.log')
 
 def get_auto_reload_method():
     from django.conf import settings
